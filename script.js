@@ -1,4 +1,4 @@
-const adicionaItem = (event) => {
+const adicionaItem = () => {
     let container = document.getElementById("container")
     let item = document.createElement("article")
     item.innerHTML = "item"
